@@ -9,3 +9,13 @@ void hero::calculate_hp() {
 void hero::show_stats() {
 	printf("%d\t%d\t%d\t%d", hp, mp, res, dmg);
 }
+void monster::death() {
+	if (hp < 0){
+		isAlive = false;
+	}
+}
+void monster::take_dmg(int dmg) {
+	hp -= dmg;
+	printf("%d", hp);
+	death();
+}

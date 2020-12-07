@@ -21,7 +21,7 @@
     <ClCompile Include="hero.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="function.cpp">
+    <ClCompile Include="fun.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="hero.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="function.h">
+    <ClInclude Include="fun.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
