@@ -1,3 +1,5 @@
+#include "hero.h"
 #pragma once
-void save();
+void save(hero* h);
+void load(hero* h);
 

@@ -9,10 +9,11 @@ class hero :public entity
 {
 public:
 	int str = 0, agt = 0, inl = 0;
-	hero(int s,int a,int i) {
+	hero(int s, int a, int i) {
 		str = s; agt = a; inl = i;
 		calculate_hp();
-	}hero();
+	}
+	hero() {};
 	void show_stats();
 	void calculate_hp();
 };
